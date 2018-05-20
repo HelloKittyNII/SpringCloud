@@ -1,0 +1,13 @@
+rootProject.name = 'SpringCloud'
+
+include 'Eureka-Server'
+include 'Consumer-Feign'
+include 'Consumer-Ribbon'
+
+include 'Consumer-Ribbon-Hystrix'
+include 'Eureka-Client-A'
+include 'Eureka-Client-B'
+
+include 'Service-Producer-A'
+include 'Service-Producer-B'
+
