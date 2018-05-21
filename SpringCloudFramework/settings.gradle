@@ -5,8 +5,9 @@ include 'Consumer-Feign'
 include 'Consumer-Ribbon'
 
 include 'Consumer-Ribbon-Hystrix'
-include 'Eureka-Client-A'
-include 'Eureka-Client-B'
+include 'Consumer-Feign-Hystrix'
+//include 'Eureka-Client-A'
+//include 'Eureka-Client-B'
 
 include 'Service-Producer-A'
 include 'Service-Producer-B'

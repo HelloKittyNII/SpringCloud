@@ -15,12 +15,12 @@ public class ConsumerController
      * 注入
      */
     @Autowired
-    private RibbonConsumerService ribbonConsumerService;
+    private ConsumerService consumerService;
 
 
     @RequestMapping("/consumer")
     public String client()
     {
-        return ribbonConsumerService.client();
+        return consumerService.client();
     }
 }

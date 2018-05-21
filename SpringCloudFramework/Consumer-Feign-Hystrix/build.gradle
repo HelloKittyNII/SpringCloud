@@ -32,8 +32,8 @@ ext {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
+	compile('org.springframework.cloud:spring-cloud-starter-feign:1.4.4.RELEASE')
 	compile('org.springframework.cloud:spring-cloud-starter-eureka:1.4.4.RELEASE')
-	compile('org.springframework.cloud:spring-cloud-starter-hystrix:1.4.4.RELEASE')
 	compile('org.springframework.cloud:spring-cloud-starter-ribbon:1.4.4.RELEASE')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
